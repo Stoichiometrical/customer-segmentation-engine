@@ -1,8 +1,3 @@
-import json
-import os
-
-
-
 
 def load_custom_discounts(root_path):
     """
@@ -140,4 +135,10 @@ def calculate_loyalty_points(total_price, points_per_dollar):
         int: The total loyalty points earned.
     """
     return int(total_price * points_per_dollar)
+
+
+import json
+import os
+
+
 
