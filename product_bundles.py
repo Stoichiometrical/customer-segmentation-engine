@@ -406,7 +406,7 @@ from io import StringIO, BytesIO
 import boto3
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 
-from customer_segmentation_engine.utility_methods import aggregate_transactions
+from utility_methods import aggregate_transactions
 
 s3_client = boto3.client('s3')
 S3_BUCKET_NAME = 'iso-datalake'
